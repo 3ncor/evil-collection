@@ -30,7 +30,7 @@
 (require 'evil-collection)
 (require 'newsticker)
 
-(defconst evil-collection-newsticker-maps '(newsticker-mode-map))
+(defconst evil-collection-newsticker-maps '(newsticker-mode-map newsticker-treeview-mode-map))
 
 ;;;###autoload
 (defun evil-collection-newsticker-setup ()
